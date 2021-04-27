@@ -6,7 +6,6 @@ for (i = 0; i < 10; i++) {
     var valore = Number(prompt("Inserisci un numero"));
     numeri.push(valore)
     somma = numeri[i] + somma;
-    console.log(somma);
 }
 
 //Il programma stampa la somma di tutti i numeri inseriti
