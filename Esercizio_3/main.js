@@ -7,7 +7,7 @@ var listaUtenti = ["marco", "luigi", "franco", "pierluigi", "fabio", "andrei", "
 
 
 //controllo se il nome dell'utente e presente nella lista
-var controllo = listaUtenti.includes(nomeUtente);
+var controllo = listaUtenti.includes(nomeUtente.toLowerCase());
 
 
 //controllo e communico al cliente l'esito
