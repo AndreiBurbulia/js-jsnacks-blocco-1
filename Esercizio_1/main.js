@@ -29,9 +29,9 @@ if (lunghezza_1 > lunghezza_2) {
 //versione corta del codice
 
 if (parola_1.length > parola_2.length) {
-    document.getElementById("risultato").innerHTML = parola_1 + " " + parola_2;
-} else if (parola_2.length > parola_1.length) {
     document.getElementById("risultato").innerHTML = parola_2 + " " + parola_1;
+} else if (parola_2.length > parola_1.length) {
+    document.getElementById("risultato").innerHTML = parola_1 + " " + parola_2;
 } else {
     document.getElementById("risultato").innerHTML = "Sono lunghe uguali!";
 }
