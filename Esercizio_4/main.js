@@ -4,8 +4,7 @@ var numeri = [];
 //chiediamo per 6 volte all'utente di inseirre un numero
 for (i = 0; i < 6; i++) {
     var valore = Number(prompt("Inserisci un numero"));
-    var numero = valore % 2;
-    if (numero == 1) {
+    if (valore % 2 == 1) {
         numeri.push(valore);
     }
 }
