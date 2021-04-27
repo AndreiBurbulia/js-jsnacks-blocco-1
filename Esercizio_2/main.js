@@ -11,4 +11,3 @@ for (i = 0; i < 10; i++) {
 //Il programma stampa la somma di tutti i numeri inseriti
 
 document.getElementById("somma").innerHTML = somma;
-
