@@ -11,6 +11,7 @@ body{
 p{
     font-size: 2rem;
     font-weight: bold;
+    padding:  1rem 0;
 }
 
 span{
