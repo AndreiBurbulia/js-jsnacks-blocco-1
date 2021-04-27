@@ -5,10 +5,9 @@ var numeri = [];
 for (i = 0; i < 6; i++) {
     var valore = Number(prompt("Inserisci un numero"));
     numero = valore % 2;
-    console.log(numero);
     if (numero == 1) {
         numeri.push(valore);
     }
-    console.log(numeri);
 }
+document.getElementById("valori").innerHTML = numeri;
 //se il numero e dispari lo inseriamo nell'aray
