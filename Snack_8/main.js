@@ -4,9 +4,9 @@
 var lunghezza = 0;
 while (lunghezza != 4) {
     var numero = prompt("Inserisci un numero da 4 cifre ");
-    console.log(numero);
     lunghezza = numero.length;
 }
+console.log(numero);
 
 //sommo separatamente  le 4 cifre inserite e gli communico il risultato 
 var somma = 0;
