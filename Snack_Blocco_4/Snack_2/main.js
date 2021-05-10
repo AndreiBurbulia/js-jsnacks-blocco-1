@@ -7,6 +7,7 @@ var triangolo = {
 //calcolare perimetro e area
 var area = (triangolo.base * triangolo.altezza) / 2;
 console.log(area);
+triangolo.area = area;
 
 
 //c=sqrt(pow(a, 2)+pow(b, 2))
@@ -21,5 +22,8 @@ console.log(latoLungo);
 console.log(latoLungo2);
 
 
-var perimetro = triangolo.base + triangolo.altezza + latoLungo;
-console.log(perimetro.toFixed(2));
+var perimetro = (triangolo.base + triangolo.altezza + latoLungo).toFixed(2);
+console.log(perimetro);
+
+triangolo.perimetro = perimetro;
+console.log(triangolo);
