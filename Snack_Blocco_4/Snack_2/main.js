@@ -11,10 +11,15 @@ console.log(area);
 
 //c=sqrt(pow(a, 2)+pow(b, 2))
 
-
+//opzione 1
 var latoLungo = Math.sqrt(Math.pow(triangolo.base, 2) + Math.pow(triangolo.altezza, 2))
+//opzione 2
+var latoLungo2 = Math.sqrt((triangolo.base ** 2) + (triangolo.altezza ** 2))
+
 
 console.log(latoLungo);
+console.log(latoLungo2);
+
 
 var perimetro = triangolo.base + triangolo.altezza + latoLungo;
 console.log(perimetro.toFixed(2));
